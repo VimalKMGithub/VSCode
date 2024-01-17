@@ -1,0 +1,40 @@
+{
+  "question": [
+    "Q1. To add a new element to a list we use which Python command?",
+    "Q2. Which one of the following is the use of function in python?",
+    "Q3. What is the maximum possible length of an identifier in Python?",
+    "Q4. Which of the following is a feature of Python DocString?"
+  ],
+  "answer": [
+    3,
+    3,
+    4,
+    4
+  ],
+  "options": [
+    [
+      "list1.addEnd(5)",
+      "list1.addLast(5)",
+      "list1.append(5)",
+      "list1.add(5)"
+    ],
+    [
+      "Functions do not provide better modularity for your application",
+      "you cannot also create your own functions",
+      "Functions are reusable pieces of programs",
+      "All of the mentioned"
+    ],
+    [
+      "79 characters",
+      "31 characters",
+      "63 characters",
+      "none of the mentioned"
+    ],
+    [
+      "In Python all functions should have a docstring",
+      "Docstrings can be accessed by the __doc__ attribute on objects",
+      "It provides a convenient way of associating documentation",
+      "All of the mentioned"
+    ]
+  ]
+}

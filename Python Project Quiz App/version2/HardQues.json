@@ -1,0 +1,40 @@
+{
+  "question": [
+    "Q1. Which of these is the definition for packages in Python?",
+    "Q2. What is the order of precedence in python?",
+    "Q3. The process of pickling in Python includes ___ ?",
+    "Q4. Which of the following is the use of id() function in python ?"
+  ],
+  "answer": [
+    2,
+    4,
+    1,
+    2
+  ],
+  "options": [
+    [
+      "A set of main modules",
+      "A folder of python modules",
+      "A number of files containing Python definitions and statements",
+      "A set of programs making use of Python modules"
+    ],
+    [
+      "Exponential, Parentheses, Multiplication, Division, Addition, Subtraction",
+      "Exponential, Parentheses, Division, Multiplication, Addition, Subtraction",
+      "Parentheses, Exponential, Multiplication, Division, Subtraction, Addition",
+      "Parentheses, Exponential, Multiplication, Division, Addition, Subtraction"
+    ],
+    [
+      "conversion of a Python object hierarchy into byte stream",
+      "conversion of a datatable into a list",
+      "conversion of a byte stream into Python object hierarchy",
+      "conversion of a list into a datatable"
+    ],
+    [
+      "Every object in Python doesn’t have a unique id",
+      "In Python Id function returns the identity of the object",
+      "None of the mentioned",
+      "All of the mentioned"
+    ]
+  ]
+}
