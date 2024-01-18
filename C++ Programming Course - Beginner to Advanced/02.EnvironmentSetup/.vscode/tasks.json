@@ -12,7 +12,7 @@
 				"-std=c++23",
 				"${workspaceFolder}\\*.cpp",
 				"-o",
-				"${fileDirname}\\z.exe"
+				"${fileDirname}\\z1.exe"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
@@ -25,6 +25,27 @@
 				"isDefault": true
 			},
 			"detail": "compiler: \"C:\\Program Files (x86)\\mingw64\\bin\\clang++.exe\""
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe build active file",
+			"command": "C:\\Program Files (x86)\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"-std=c++23",
+				"${workspaceFolder}\\*.cpp",
+				"-o",
+				"${fileDirname}\\z2.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: \"C:\\Program Files (x86)\\mingw64\\bin\\g++.exe\""
 		}
 	]
 }
