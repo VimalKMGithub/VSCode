@@ -161,7 +161,9 @@ import java.util.*;
 
 // T type
 // E Element
-// 
+// K Key
+// N Number
+// V Value
 
 // generic class
 class myClass<T> {
@@ -169,6 +171,10 @@ class myClass<T> {
 
     void add(T obj) {
         this.obj = obj;
+    }
+
+    T get() {
+        return obj;
     }
 }
 
@@ -188,6 +194,10 @@ public class day6 {
         // Map<Integer,String> map=new HashMap<>();
         // map.put(1, "one");
         // // map.put("2", "one"); // give error because of type mismatch
+
+        // myClass<Integer> c = new myClass<>();
+        // c.add(1);
+        // System.out.println(c.get());
 
         Integer[] ar1 = { 1, 2, 3, 4 };
         Character[] ar2 = { 'a', 'b', 'c' };
