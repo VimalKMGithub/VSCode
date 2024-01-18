@@ -31,7 +31,14 @@ public class day5n {
                 mp.put(arr[i], 1);
             }
         }
-        System.out.println(Collections.max(mp.values()));
+        int ele = Integer.MIN_VALUE, fre = 0;
+        for (Map.Entry<Integer, Integer> entry : mp.entrySet()) {
+            if (entry.getValue() > fre) {
+                ele = entry.getKey();
+                fre = entry.getValue();
+            }
+        }
+        System.out.println("Element with max frequency: " + ele + " & frequency is: " + fre);
     }
 }
 // what is the write syntax to find the length of string str?
