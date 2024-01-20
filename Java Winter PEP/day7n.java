@@ -1,9 +1,8 @@
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
+import java.util.*;
 
 public class day7n {
     public static void main(String[] args) {
+        // // 1st approach
         // int arr[] = { 2, 3, 1, 2, 3 };
         // Map<Integer, Integer> mp = new HashMap<>();
         // for (int i = 0; i < arr.length; i++) {
@@ -18,7 +17,7 @@ public class day7n {
         // System.out.println(entry.getKey());
         // }
         // }
-
+        // // 2nd approach
         // int[] a = { 2, 3, 1, 2, 3, 2, 2, 4, 4, 4, 4 };
         // HashSet<Integer> set = new HashSet<>();
         // HashSet<Integer> dup = new HashSet<>();
@@ -33,6 +32,46 @@ public class day7n {
 
         // double n = 25;
         // System.out.println(Math.sqrt(n));
+
+        // // Input:n1 = 6; A = {1, 5, 10, 20, 40, 80}
+        // // n2 = 5; B = {6, 7, 20, 80, 100}
+        // // n3 = 8; C = {3, 4, 15, 20, 30, 70, 80, 120}
+        // // Output: 20 80
+        // // write a code to find the common elements in the array.
+        // // 1st approach
+        // int[] A = { 1, 5, 10, 20, 40, 80 };
+        // int[] B = { 6, 7, 20, 80, 100 };
+        // int[] C = { 3, 4, 15, 20, 30, 70, 80, 120 };
+        // Set<Integer> common = new HashSet<>();
+        // for (int i : A) {
+        // for (int j : B) {
+        // for (int k : C) {
+        // if (i == j && j == k) {
+        // common.add(i);
+        // }
+        // }
+        // }
+        // }
+        // System.out.println(common);
+        // // 2nd approach
+        // int[] A = { 1, 5, 10, 20, 40, 80 };
+        // int[] B = { 6, 7, 20, 80, 100 };
+        // int[] C = { 3, 4, 15, 20, 30, 70, 80, 120 };
+        // Set<Integer> setA = new HashSet<>();
+        // for (int a : A) {
+        // setA.add(a);
+        // }
+        // Set<Integer> setB = new HashSet<>();
+        // for (int b : B) {
+        // setB.add(b);
+        // }
+        // Set<Integer> setC = new HashSet<>();
+        // for (int c : C) {
+        // setC.add(c);
+        // }
+        // setA.retainAll(setB);
+        // setA.retainAll(setC);
+        // System.out.println(setA);
     }
 }
 
