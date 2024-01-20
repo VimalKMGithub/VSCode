@@ -38,5 +38,35 @@ public class day8 {
         // for (int i : a) {
         // System.out.println(i);
         // }
+
+        // int a[] = { 5, 4, 3, 2, 1 };
+        // for (int i = 1; i < a.length; i++) {
+        // int key=a[i];
+        // int j=i-1;
+        // while (j>=0&&a[j]>key) {
+        // a[j+1]=a[j];
+        // j--;
+        // }
+        // a[j+1]=key;
+        // }
+        // for (int i : a) {
+        // System.out.println(i);
+        // }
+
+        // int a[] = { 5, 4, 3, 2, 1 };
+        // for (int i = 0; i < a.length - 1; i++) {
+        // int min = i;
+        // for (int j = i + 1; j < a.length; j++) {
+        // if (a[j] < a[min]) {
+        // min = j;
+        // }
+        // }
+        // int te = a[min];
+        // a[min] = a[i];
+        // a[i] = te;
+        // }
+        // for (int i : a) {
+        // System.out.println(i);
+        // }
     }
 }
