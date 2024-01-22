@@ -64,6 +64,14 @@ public class day8 {
         // int te = a[min];
         // a[min] = a[i];
         // a[i] = te;
+        // // // this will result in wrong output
+        // // a[i] += a[min];
+        // // a[min] = a[i] - a[min];
+        // // a[i] -= a[min];
+        // // // this will also result in wrong output
+        // // a[i] ^= a[min];
+        // // a[min] ^= a[i];
+        // // a[i] ^= a[min];
         // }
         // for (int i : a) {
         // System.out.println(i);
