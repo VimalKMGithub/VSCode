@@ -12,7 +12,7 @@
 				"-std=c++23",
 				"${file}",
 				"-o",
-				"${fileDirname}\\z1.exe"
+				"${fileDirname}\\z.exe"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
@@ -20,10 +20,7 @@
 			"problemMatcher": [
 				"$gcc"
 			],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			},
+			"group": "build",
 			"detail": "compiler: \"C:\\Program Files (x86)\\mingw64\\bin\\clang++.exe\""
 		},
 		{
@@ -36,7 +33,7 @@
 				"-std=c++23",
 				"${file}",
 				"-o",
-				"${fileDirname}\\z2.exe"
+				"${fileDirname}\\z.exe"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
@@ -44,7 +41,10 @@
 			"problemMatcher": [
 				"$gcc"
 			],
-			"group": "build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
 			"detail": "compiler: \"C:\\Program Files (x86)\\mingw64\\bin\\g++.exe\""
 		}
 	]
