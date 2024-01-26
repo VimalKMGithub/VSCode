@@ -1,4 +1,4 @@
-class x15 {
+class regex {
     public static void main(String[] args) {
         String input = "A";
         String regex = "^(?=.*[a-zA-Z]).{1,}$";

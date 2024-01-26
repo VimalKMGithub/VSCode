@@ -1,6 +1,6 @@
 import java.io.File;
 
-class x14 {
+class directorymaker {
     public static void main(String[] args) {
         File myDir = new File("C:/Users/Vimal/Documents/FeedbackHub/zfol1/zfol2");
         if (myDir.mkdirs()) {
