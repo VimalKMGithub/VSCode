@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class stp {
+public class version1 {
     private static node start = null;
 
     static void li(int val) {
