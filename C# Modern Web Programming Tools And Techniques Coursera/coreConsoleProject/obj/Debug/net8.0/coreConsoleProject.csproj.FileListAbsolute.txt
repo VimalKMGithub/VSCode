@@ -1,0 +1,15 @@
+C:\Users\vimal\Documents\VSCode\CSharp Modern Web Programming Tools And Techniques Coursera\coreConsoleProject\bin\Debug\net8.0\coreConsoleProject.exe
+C:\Users\vimal\Documents\VSCode\CSharp Modern Web Programming Tools And Techniques Coursera\coreConsoleProject\bin\Debug\net8.0\coreConsoleProject.deps.json
+C:\Users\vimal\Documents\VSCode\CSharp Modern Web Programming Tools And Techniques Coursera\coreConsoleProject\bin\Debug\net8.0\coreConsoleProject.runtimeconfig.json
+C:\Users\vimal\Documents\VSCode\CSharp Modern Web Programming Tools And Techniques Coursera\coreConsoleProject\bin\Debug\net8.0\coreConsoleProject.dll
+C:\Users\vimal\Documents\VSCode\CSharp Modern Web Programming Tools And Techniques Coursera\coreConsoleProject\bin\Debug\net8.0\coreConsoleProject.pdb
+C:\Users\vimal\Documents\VSCode\CSharp Modern Web Programming Tools And Techniques Coursera\coreConsoleProject\obj\Debug\net8.0\coreConsoleProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vimal\Documents\VSCode\CSharp Modern Web Programming Tools And Techniques Coursera\coreConsoleProject\obj\Debug\net8.0\coreConsoleProject.AssemblyInfoInputs.cache
+C:\Users\vimal\Documents\VSCode\CSharp Modern Web Programming Tools And Techniques Coursera\coreConsoleProject\obj\Debug\net8.0\coreConsoleProject.AssemblyInfo.cs
+C:\Users\vimal\Documents\VSCode\CSharp Modern Web Programming Tools And Techniques Coursera\coreConsoleProject\obj\Debug\net8.0\coreConsoleProject.csproj.CoreCompileInputs.cache
+C:\Users\vimal\Documents\VSCode\CSharp Modern Web Programming Tools And Techniques Coursera\coreConsoleProject\obj\Debug\net8.0\coreConsoleProject.sourcelink.json
+C:\Users\vimal\Documents\VSCode\CSharp Modern Web Programming Tools And Techniques Coursera\coreConsoleProject\obj\Debug\net8.0\coreConsoleProject.dll
+C:\Users\vimal\Documents\VSCode\CSharp Modern Web Programming Tools And Techniques Coursera\coreConsoleProject\obj\Debug\net8.0\refint\coreConsoleProject.dll
+C:\Users\vimal\Documents\VSCode\CSharp Modern Web Programming Tools And Techniques Coursera\coreConsoleProject\obj\Debug\net8.0\coreConsoleProject.pdb
+C:\Users\vimal\Documents\VSCode\CSharp Modern Web Programming Tools And Techniques Coursera\coreConsoleProject\obj\Debug\net8.0\coreConsoleProject.genruntimeconfig.cache
+C:\Users\vimal\Documents\VSCode\CSharp Modern Web Programming Tools And Techniques Coursera\coreConsoleProject\obj\Debug\net8.0\ref\coreConsoleProject.dll
