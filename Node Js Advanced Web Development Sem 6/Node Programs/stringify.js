@@ -17,6 +17,3 @@ fs.writeFile('text.txt', student1, function (err) {
     }
     console.log("write operation completed")
 })
-
-
-

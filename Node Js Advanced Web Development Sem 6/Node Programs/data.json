@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Gauhar",
+        "cgpa": 8.5,
+        "address": "Patna"
+    },
+    {
+        "name": "Gurkunwar",
+        "cgpa": 9.2,
+        "address": "Amritsar"
+    },
+    {
+        "name": "Adeeb",
+        "cgpa": 7.9,
+        "address": "punjab"
+    }
+]
