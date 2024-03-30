@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+    <script>
+        const socket = io()
+        socket.on('myevent', function (data) {
+            document.write(data)
+        })  
+    </script>
+</body>
+
+</html>
