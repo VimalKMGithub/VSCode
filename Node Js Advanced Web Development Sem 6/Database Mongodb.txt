@@ -1,0 +1,18 @@
+-show dbs
+-use persons
+-db.createCollection('person_details')
+-show collections
+-db.person_details.insertOne({name:'Vimal',city:'Prayagraj',marks:100})
+-db.person_details.find()
+-db.person_details.insertMany([{name:'Vimal 2',city:'Prayagraj 2',marks:100},{name:'Vimal 3',city:'Prayagraj 3',marks:100}])
+-db.person_details.insertOne({_id:1,name:'Vimal 4',city:'Prayagraj 4',marks:100})
+-db.person_details.find({city:'Delhi'})
+-allpersons=[{_id:2,name:'Vimal',city:'prayagraj',marks:100},{_id:3,name:'Vimal2',city:'prayagraj',marks:100}]
+-db.person_details.insertMany(allpersions)
+-db.person_details.updateOne({_id: 1},{$set:{city:'Chak Ghat'}})
+-db.person_details.updateMany({city:'Prayagraj'},{$set:{city:'Chak Ghat'}})
+-db.person_details.updateMany({$or:[{city:'Prayagraj'},{city:'Prayagraj 1'}]},{$set:{city:'Chak Ghat'}})
+-db.person_details.deleteOne({_id:5})
+-db.person_details.deleteMany({city:'Prayagraj'})
+-db.person_details.deleteMany({$or:[{city:'Prayagraj'},{city:'Prayagraj 1'}]})
+-
