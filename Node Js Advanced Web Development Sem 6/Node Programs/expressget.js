@@ -32,8 +32,9 @@ const app = express();
 const fs = require('fs');
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.static('public'));
 app.get('/', function (req, res) {
-    res.sendFile(__dirname + "/" + "form1.html");
+    res.sendFile(__dirname + "/public/" + "form1.html");
 })
 // app.get('/hello', function (req, res) {
 //     res.send('Again Hello World!')
