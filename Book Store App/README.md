@@ -1,3 +1,9 @@
+# Required
+Nodejs<br>
+MongoDb<br>
+MongoDbShell<br>
+MongoDbCompass (optional)
+
 # Add .env file in Backend root folder
 PORT=4001<br>
 MongoDBURI="mongodb://localhost:27017/bookStore"
