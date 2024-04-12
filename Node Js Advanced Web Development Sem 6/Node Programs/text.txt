@@ -1,5 +1,1 @@
-{
-          "name": "Vimal",
-          "cgpa": 7.41,
-          "address": "prayagraj"
-}
+Today is friday

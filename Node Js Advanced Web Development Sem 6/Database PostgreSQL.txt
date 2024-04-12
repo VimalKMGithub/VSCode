@@ -1,0 +1,4 @@
+-psql -U postgres -h localhost
+-create database university;
+-\list
+-\q
