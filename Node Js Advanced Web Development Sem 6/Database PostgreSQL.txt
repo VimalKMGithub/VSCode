@@ -2,3 +2,11 @@
 -create database university;
 -\list
 -\q
+-\c university;
+-create table student(id int primary key not null, name text not null, address text, cgpa float);
+-\dt
+-insert into student(id, name, address, cgpa) values(1, 'Manoj', 'Delhi', 8.7);
+-insert into student(id, name, address, cgpa) values(2, 'Rajneesh', 'Mumbai', 6.5), (3, 'Manoj', 'Noida', 7.2);
+-Select * from student;
+-Delete from student where id = 3;
+-
