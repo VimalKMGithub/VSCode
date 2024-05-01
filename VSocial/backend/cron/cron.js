@@ -1,7 +1,7 @@
 import cron from "cron";
 import https from "https";
 
-const URL = "https://vsocial-9cim.onrender.com";
+const URL = "https://vsocial-x70a.onrender.com";
 
 const job = new cron.CronJob("*/14 * * * *", function () {
 	https
