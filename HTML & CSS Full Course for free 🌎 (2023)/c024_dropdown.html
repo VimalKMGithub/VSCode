@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .dropdown {
+            display: inline-block;
+        }
+
+        .dropdown button {
+            background-color: hsl(220, 1%, 59%);
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown a {
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .dropdown .content {
+            display: none;
+            position: absolute;
+            background-color: rgb(212, 209, 209);
+            min-width: 100px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .dropdown:hover .content {
+            display: block;
+        }
+
+        .dropdown:hover button {
+            background-color: hsl(220, 1%, 49%);
+        }
+
+        .dropdown a:hover {
+            background-color: hsl(204, 3%, 69%);
+        }
+    </style>
+    <title>dropdown</title>
+</head>
+
+<body>
+    <div class="dropdown">
+        <button>Food</button>
+        <div class="content">
+            <a href="#">Burger</a>
+            <a href="#">Pizza</a>
+            <a href="#">Pasta</a>
+        </div>
+    </div>
+</body>
+
+</html>

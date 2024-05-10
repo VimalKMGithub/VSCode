@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <h2>Store hours</h2>
+    <table border="1" style="background-color: black;">
+        <tr align="center" style="background-color: lightblue;">
+            <th width="100">Sunday</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Satarday</th>
+        </tr>
+        <tr align="center" style="background-color: aliceblue;">
+            <td>Closed</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>10-2</td>
+        </tr>
+    </table> -->
+
+
+
+
+
+
+
+
+    <!-- <a href="c006_second_page.html"> -->
+    <!-- <button onclick="doSomething()"
+        style="background-color: gray;font-size: 25px;color: lightblue;border-radius: 25px;">Click Me</button> -->
+    <!-- </a> -->
+    <!-- <p id="greet">Welcome</p>
+    <script>
+        function doSomething() {
+            document.getElementById("greet").innerHTML = "Goodbye!";
+        }
+    </script> -->
+
+
+
+
+
+
+
+    <form action="index.php" method="post" enctype="multipart/form-data">
+        <label for="username">username:</label>
+        <input type="text" id="username" placeholder="vimalkm" minlength="6" maxlength="15" required><br>
+
+        <label for="password">password:</label>
+        <input type="password" id="password" minlength="6" maxlength="15" required>
+        <br>
+
+        <label for="email">email:</label>
+        <input type="email" id="email" placeholder="vimal@gmail.com" required><br>
+
+        <label for="phone">phone #:</label>
+        <input type="tel" id="phone" placeholder="7788994455" pattern="[0-9]{10}" maxlength="10" required><br>
+
+        <label for="bdate">birthdate:</label>
+        <input type="date" id="bdate"><br>
+
+        <label for="quantity">quantity:</label>
+        <input type="number" id="quantity" min="1" max="99" value="1"><br>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" name="title" id="Mr." value="Mr.">
+        <label for="Ms.">Ms.</label>
+        <input type="radio" name="title" id="Ms." value="Ms.">
+        <label for="PHd.">PHd.</label>
+        <input type="radio" name="title" id="PHd." value="PHd."><br>
+
+        <label for="payment">payment:</label>
+        <select id="payment">
+            <option value="visa">visa</option>
+            <option value="mastercard">mastercard</option>
+            <option value="giftcard">giftcard</option>
+        </select><br>
+
+        <label for="check">check:</label>
+        <input type="checkbox" id="check"><br>
+
+        <label for="field">field:</label>
+        <textarea id="field" rows="3" cols="25"></textarea><br>
+
+        <label for="file">file:</label>
+        <input type="file" id="file" accept="image/*"><br>
+
+        <input type="reset"><br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        body {
+            background-color: rgb(23, 23, 23);
+        }
+
+        #box {
+            width: 250px;
+            height: 250px;
+            background-color: hsl(0, 100%, 65%);
+            font-size: 13em;
+            text-align: center;
+            animation-name: slideLeft;
+            animation-duration: 2s;
+            /* animation-iteration-count: 2; */
+            animation-iteration-count: 1;
+            /* animation-direction: reverse; */
+            /* animation-direction: alternate; */
+            /* animation-direction: alternate-reverse; */
+            animation-direction: normal;
+            /* animation-play-state: paused; */
+            animation-play-state: running;
+            /* animation-timing-function: ease-in-out; */
+            /* animation-timing-function: linear; */
+            /* animation-timing-function: steps(5); */
+            /* opacity: 0; */
+            animation-timing-function: cubic-bezier(0.45, -0.33, 0, 0.96);
+        }
+
+        img {
+            animation-name: slideLeft;
+            animation-duration: 2s;
+            /* animation-iteration-count: 2; */
+            animation-iteration-count: 1;
+            /* animation-direction: reverse; */
+            /* animation-direction: alternate; */
+            /* animation-direction: alternate-reverse; */
+            animation-direction: normal;
+            /* animation-play-state: paused; */
+            animation-play-state: running;
+            /* animation-timing-function: ease-in-out; */
+            /* animation-timing-function: linear; */
+            /* animation-timing-function: steps(5); */
+            /* opacity: 0; */
+            animation-timing-function: cubic-bezier(0.45, -0.33, 0, 0.96);
+        }
+
+        /* #box:hover {
+            animation-name: glow;
+            animation-duration: 2s;
+        } */
+
+        /* #box:active {
+            animation-name: glow;
+            animation-duration: 2s;
+        } */
+
+        @keyframes slideLeft {
+            from {
+                /* transform: translateX(100px); */
+                transform: translateX(100%);
+            }
+        }
+
+        @keyframes slideRight {
+            to {
+                /* transform: translateX(100px); */
+                transform: translateX(100%);
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                /* transform: translateY(100px); */
+                transform: translateY(100%);
+            }
+        }
+
+        @keyframes slideDown {
+            to {
+                /* transform: translateY(100px); */
+                transform: translateY(100%);
+            }
+        }
+
+        @keyframes rotate {
+
+            /* 100% */
+            50% {
+                transform: rotateX(360deg);
+                /* transform: rotateY(360deg); */
+                /* transform: rotateZ(360deg); */
+            }
+        }
+
+        @keyframes grow {
+
+            /* 100% */
+            50% {
+                transform: scale(2, 2);
+            }
+        }
+
+        @keyframes shrink {
+
+            /* 100% */
+            50% {
+                transform: scale(0.5, 0.5);
+            }
+        }
+
+        @keyframes fade {
+
+            /* 100% */
+            100% {
+                /* opacity: 0; */
+                opacity: 1;
+            }
+        }
+
+        @keyframes colorChange {
+            0% {
+                background-color: hsl(0, 100%, 65%);
+            }
+
+            20% {
+                background-color: hsl(13, 84%, 68%);
+            }
+
+            40% {
+                background-color: hsl(54, 100%, 65%);
+            }
+
+            60% {
+                background-color: hsl(132, 100%, 65%);
+            }
+
+            80% {
+                background-color: hsl(240, 100%, 65%);
+            }
+
+            100% {
+                background-color: hsl(281, 100%, 65%);
+            }
+        }
+
+        @keyframes glow {
+            50% {
+                box-shadow: 0 0 50px hsl(78, 97%, 61%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div id="box">Hi</div> -->
+    <img src="images/shrek.png" alt="shrek">
+</body>
+
+</html>

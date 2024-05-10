@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1::first-letter {
+            font-size: 2em;
+            font-style: italic;
+        }
+
+        p::first-line {
+            background-color: yellow;
+        }
+
+        p::selection {
+            color: green;
+            background-color: rgb(3, 3, 3);
+        }
+
+        /* #fruits li::before {
+            content: "✔️ ";
+        } */
+
+        #apple::after {
+            content: "🍎";
+        }
+
+        #orange::after {
+            content: "🍊";
+        }
+
+        #banana::after {
+            content: "🍌";
+        }
+
+        #fruits li::marker {
+            content: "✅";
+            /* color: hsl(120, 40%, 50%); */
+            font-size: 1.2em;
+        }
+    </style>
+    <title>vSite</title>
+</head>
+
+<body>
+    <h1>Vimal Kumar Mishra</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi nam architecto qui dignissimos nemo rem non,
+        magnam maiores adipisci recusandae natus, accusamus modi perferendis? Rem dolor ad sapiente reiciendis corporis!
+    </p>
+    <ul id="fruits">
+        <li id="apple">apple</li>
+        <li id="orange">orange</li>
+        <li id="banana">banana</li>
+    </ul>
+</body>
+
+</html>

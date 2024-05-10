@@ -1,3 +1,4 @@
+-mongosh
 -show dbs
 -use persons
 -db.createCollection('person_details')
