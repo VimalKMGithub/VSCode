@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <style>
+        /* #count {
+            font-size: 10em;
+            font-family: Helvetica;
+            display: block;
+            text-align: center;
+        }
+
+        #buttonsContainer {
+            text-align: center;
+        }
+
+        .buttons {
+            font-size: 1.5em;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            background-color: hsl(223, 95%, 75%);
+            transition: background-color 0.25s;
+        }
+
+        .buttons:hover {
+            background-color: hsl(223, 97%, 60%);
+        } */
+
+        body {
+            font-family: Verdana;
+            text-align: center;
+        }
+
+        #roll {
+            font-size: 3em;
+            padding: 5px 25px;
+            border-radius: 10px;
+        }
+
+        .myL {
+            font-size: 3em;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <label id="count">0</label>
+    <div id="buttonsContainer">
+        <button id="decrease" class="buttons">Decrease</button>
+        <button id="reset" class="buttons">Reset</button>
+        <button id="increase" class="buttons">Increase</button>
+    </div> -->
+
+
+    <button id="roll">Roll</button><br>
+    <label class="myL" id="myL1"></label><br>
+    <label class="myL" id="myL2"></label><br>
+    <label class="myL" id="myL3"></label><br>
+    <script>
+        // const decrease = document.getElementById('decrease');
+        // const reset = document.getElementById('reset');
+        // const increase = document.getElementById('increase');
+        // const count = document.getElementById('count');
+        // let counter = 0;
+        // increase.onclick = () => {
+        //     counter++;
+        //     count.textContent = counter;
+        // }
+        // decrease.onclick = () => {
+        //     counter--;
+        //     count.textContent = counter;
+        // }
+        // reset.onclick = () => {
+        //     counter = 0;
+        //     count.textContent = counter;
+        // }
+
+
+
+
+
+        // console.log(Math.PI);
+        // let x = /*3.21*/3, y = 2, z
+        // z = Math.round(x)
+        // z = Math.ceil(x)
+        // z = Math.floor(x)
+        // z = Math.trunc(x)
+        // z = Math.pow(x, y)
+        // z = Math.sqrt(81)
+        // z = Math.log(10)
+        // z = Math.sin(45)
+        // z = Math.cos(45)
+        // z = Math.tan(45)
+        // z = Math.abs(-5)
+        // z = Math.sign(-5)
+        // z = Math.max(1, 2, 3, 4, 5)
+        // z = Math.min(1, 2, 3, 4, 5)
+        // console.log(z)
+
+
+
+
+
+        // let randomNum = Math.random()
+        // let randomNum = Math.random() * 10
+        // let randomNum = Math.floor(Math.random() * 10)
+        // let randomNum = Math.floor(Math.random() * 10) + 1
+        // const min = 50
+        // const max = 100
+        // let randomNum = Math.floor(Math.random() * (max - min)) + min
+        // console.log(randomNum)
+
+
+
+        const roll = document.getElementById('roll');
+        const myL1 = document.getElementById('myL1');
+        const myL2 = document.getElementById('myL2');
+        const myL3 = document.getElementById('myL3');
+        roll.onclick = () => {
+            let randomNum1 = Math.floor(Math.random() * 6) + 1
+            myL1.textContent = randomNum1
+            let randomNum2 = Math.floor(Math.random() * 6) + 1
+            myL2.textContent = randomNum2
+            let randomNum3 = Math.floor(Math.random() * 6) + 1
+            myL3.textContent = randomNum3
+        }
+    </script>
+</body>
+
+</html>

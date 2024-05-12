@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <!-- inline js in head -->
+    <!-- <script>
+        window.alert(`Vimal`);
+        console.log('Hello World');
+    </script> -->
+
+    <!-- external js in body -->
+    <!-- <script src="c001_basic.js"></script> -->
+
+    <style>
+        body {
+            font-family: Verdana;
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- inline js in body -->
+    <!-- <script>
+        window.alert(`Vimal`);
+        console.log('Hello World');
+    </script> -->
+
+    <!-- external js in body -->
+    <!-- <script src="c001_basic.js"></script> -->
+
+
+    <h1 id="myH1"></h1>
+    <p id="myP"></p>
+
+    <script>
+        document.getElementById("myH1").textContent = `Hello JavaScript!`;
+        document.getElementById("myP").innerHTML = `I like pizza!`;
+    </script>
+</body>
+
+</html>

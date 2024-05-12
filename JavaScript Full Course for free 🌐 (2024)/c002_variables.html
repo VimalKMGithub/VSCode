@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+    <style>
+        body {
+            font-family: Verdana;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <script>
+        // let x = 5;
+        // console.log(x);
+
+        // let str = `Hello World`;
+        // let age = 25;
+        // let online = true;
+        // console.log(`Your age is ${age}`);
+        // console.log(typeof age);
+        // console.log(typeof str);
+        // console.log(typeof online);
+
+        let fullName = `Vimal Kumar Mishra`;
+        let age = 23;
+        let student = true;
+
+        document.getElementById(`p1`).textContent = `My name is ${fullName}`;
+        document.getElementById(`p2`).textContent = `My age is ${age}`;
+        document.getElementById(`p3`).textContent = `I am a student: ${student ? `Yes` : `No`}`;
+    </script>
+</body>
+
+</html>
