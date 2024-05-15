@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+</head>
+
+<body>
+    <script>
+        // const fruits = [{ name: "apple", color: "red", calories: 50 }, { name: "banana", color: "yellow", calories: 60 }, { name: "cherry", color: "red", calories: 100 }, { name: "orange", color: "orange", calories: 90 }, { name: "pear", color: "green", calories: 80 }, { name: "watermelon", color: "green", calories: 30 }];
+        // console.log(fruits);
+        // console.log(fruits[0].name);
+        // console.log(fruits[1].color);
+        // console.log(fruits[2].calories);
+        // fruits.push({ name: "grape", color: "purple", calories: 70 });
+        // console.log(fruits);
+        // fruits.pop();
+        // console.log(fruits);
+        // fruits.splice(1, 2);
+        // console.log(fruits);
+        // fruits.forEach(fruit => console.log(fruit.name));
+        // fruits.forEach(fruit => console.log(fruit.color));
+        // fruits.forEach(fruit => console.log(fruit.calories));
+        // const fruitNames = fruits.map(fruit => fruit.name); // map() method creates a new array with the results of calling a provided function on every element in the calling array
+        // console.log(fruitNames);
+        // const fruitColors = fruits.map(fruit => fruit.color);
+        // console.log(fruitColors);
+        // const fruitCalories = fruits.map(fruit => fruit.calories);
+        // console.log(fruitCalories);
+        // const redFruits = fruits.filter(fruit => fruit.color === "red"); // filter() method creates a new array with all elements that pass the test implemented by the provided function
+        // console.log(redFruits);
+        // const redFruitsName = fruits.filter(fruit => fruit.color === "red").map(fruit => fruit.name);
+        // console.log(redFruitsName);
+        // const maxCalories = fruits.reduce((max, fruit) => max.calories > fruit.calories ? max : fruit);
+        // console.log(maxCalories);
+        // const minCalories = fruits.reduce((min, fruit) => min.calories < fruit.calories ? min : fruit);
+        // console.log(minCalories);
+
+
+
+
+
+        // const fruits = ["apple", "watermelon", "banana", "orange", "cherry", "pear"];
+        // fruits.sort(); // sort() method sorts the elements of an array in place and returns the sorted array in lexicographical order
+        // console.log(fruits);
+        // fruits.sort().reverse(); // sort() method sorts the elements of an array in place and returns the sorted array in descending order
+        // console.log(fruits);
+
+        // const numbers = [1, 10, 2, 20, 3, 30, 4, 40, 5, 50];
+        // numbers.sort(); // sort() method sorts the elements of an array in place and returns the sorted array in lexicographical order
+        // console.log(numbers);
+        // numbers.sort((a, b) => a - b); // sort() method sorts the elements of an array in place and returns the sorted array in ascending order
+        // console.log(numbers);
+        // numbers.sort((a, b) => b - a); // sort() method sorts the elements of an array in place and returns the sorted array in descending order
+        // console.log(numbers);
+        // numbers.sort((a, b) => a - b).reverse(); // sort() method sorts the elements of an array in place and returns the sorted array in descending order
+        // console.log(numbers);
+
+        // const people = [{ name: "vimal", age: 23, gpa: 10.0 }, { name: "abhi", age: 22, gpa: 9.0 }, { name: "kamal", age: 24, gpa: 8.0 }, { name: "yonko", age: 25, gpa: 7.0 }, { name: "praveen", age: 26, gpa: 6.0 }];
+        // people.sort((a, b) => a.age - b.age); // sort() method sorts the elements of an array in place and returns the sorted array in ascending order
+        // console.log(people);
+        // people.sort((a, b) => b.age - a.age); // sort() method sorts the elements of an array in place and returns the sorted array in descending order
+        // console.log(people);
+        // people.sort((a, b) => a.gpa - b.gpa); // sort() method sorts the elements of an array in place and returns the sorted array in ascending order
+        // console.log(people);
+        // people.sort((a, b) => b.gpa - a.gpa); // sort() method sorts the elements of an array in place and returns the sorted array in descending order
+        // console.log(people);
+        // people.sort((a, b) => a.name.localeCompare(b.name)); // sort() method sorts the elements of an array in place and returns the sorted array in ascending order
+        // console.log(people);
+        // people.sort((a, b) => b.name.localeCompare(a.name)); // sort() method sorts the elements of an array in place and returns the sorted array in descending order
+        // console.log(people);
+
+
+
+
+
+
+
+        // const cards = ['A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K'];
+        // function shuffle(cards) {
+        //     for (let i = cards.length - 1; i >= 0; i--) {
+        //         const random = Math.floor(Math.random() * (i + 1));
+        //         [cards[i], cards[random]] = [cards[random], cards[i]];
+        //     }
+        // }
+        // shuffle(cards);
+        // console.log(cards);
+
+
+
+
+
+        // const date = new Date();
+        // console.log(date);
+        // Date(year, month, day, hours, minutes, seconds, milliseconds);
+        // const date = new Date(2024, 0, 1, 0, 0, 0, 0); // create a new date object with a specified date and time
+        // console.log(date);
+        // const date = new Date("2024-01-01T00:00:00.000Z"); // create a new date object with a specified date and time z is for UTC time
+        // const date = new Date("2024-01-01T00:00:00.000Z"); // create a new date object with a specified date and time without z is for local time
+        // console.log(date);
+        // const date = new Date(0);
+        // const date = new Date(1700000000000); // create a new date object with a specified date and time in milliseconds
+        // console.log(date);
+
+        // const date = new Date();
+        // const year = date.getFullYear();
+        // const month = date.getMonth();
+        // const day = date.getDate();
+        // const hours = date.getHours();
+        // const minutes = date.getMinutes();
+        // const seconds = date.getSeconds();
+        // const milliseconds = date.getMilliseconds();
+        // const dayOfWeek = date.getDay();
+        // console.log(year);
+        // console.log(month);
+        // console.log(day);
+        // console.log(hours);
+        // console.log(minutes);
+        // console.log(seconds);
+        // console.log(milliseconds);
+        // console.log(dayOfWeek);
+
+        // const date = new Date();
+        // date.setFullYear(2024);
+        // date.setMonth(0);
+        // date.setDate(2);
+        // date.setHours(0);
+        // date.setMinutes(0);
+        // date.setSeconds(0);
+        // date.setMilliseconds(0);
+        // console.log(date);
+
+        // const date1 = new Date("2024-01-01");
+        // const date2 = new Date("2024-01-02");
+        // if (date2 > date1) {
+        //     console.log("date2 is greater than date1");
+        // }
+    </script>
+</body>
+
+</html>

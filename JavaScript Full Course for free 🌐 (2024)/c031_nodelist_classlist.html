@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <style>
+        /* .buttons {
+            font-size: 4rem;
+            margin: 10px;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 15px;
+            background-color: hsl(240, 86%, 60%);
+            color: white;
+        } */
+
+
+
+
+
+
+
+        /* #myH1 {
+            font-size: 5rem;
+        }
+
+        #myBtn {
+            font-size: 4rem;
+            margin: 10px;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 15px;
+        } */
+
+        .myBtns {
+            font-size: 4rem;
+            margin: 10px;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 15px;
+        }
+
+        .enabled {
+            background-color: hsl(240, 100%, 50%);
+            color: white;
+        }
+
+        .hover {
+            box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.2);
+            font-weight: bold;
+        }
+
+        .disabled {
+            background-color: hsl(0, 0%, 60%);
+            color: hsl(0, 0%, 80%);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <button class="buttons">Button 1</button>
+    <button class="buttons">Button 2</button>
+    <button class="buttons">Button 3</button>
+    <button class="buttons">Button 4</button> -->
+
+
+
+    <!-- <h1 id="myH1">Hello</h1>
+    <button id="myBtn">My button</button> -->
+
+
+
+    <button class="myBtns">Button 1</button>
+    <button class="myBtns">Button 2</button>
+    <button class="myBtns">Button 3</button>
+    <button class="myBtns">Button 4</button>
+    <script>
+        // let buttons = document.querySelectorAll(".buttons");
+        // buttons.forEach(button => {
+        //     button.style.backgroundColor = "green";
+        //     button.textContent += "😀";
+        // });
+
+        // buttons.forEach(button => {
+        //     button.addEventListener("click", event => {
+        //         event.target.style.backgroundColor = "tomato";
+        //     });
+        // });
+
+        // buttons.forEach(button => {
+        //     button.addEventListener("mouseover", event => {
+        //         event.target.style.backgroundColor = "hsl(240, 86%, 70%)";
+        //     });
+        // });
+
+        // buttons.forEach(button => {
+        //     button.addEventListener("mouseout", event => {
+        //         event.target.style.backgroundColor = "hsl(240, 86%, 60%)";
+        //     });
+        // });
+
+        // const newButton = document.createElement("button");
+        // newButton.textContent = "Button 5";
+        // newButton.classList = "buttons";
+        // document.body.appendChild(newButton);
+
+        // buttons = document.querySelectorAll(".buttons");
+
+        // buttons.forEach(button => {
+        //     button.addEventListener("click", event => {
+        //         event.target.remove();
+        //         buttons = document.querySelectorAll(".buttons");
+        //     });
+        // });
+
+
+
+
+
+
+        // const myBtn = document.getElementById("myBtn");
+        // const myH1 = document.getElementById("myH1");
+        // myBtn.classList.add("enabled");
+        // myBtn.classList.remove("enabled");
+        // myBtn.addEventListener("mouseover", event => {
+        //     event.target.classList.add("hover");
+        // });
+        // myBtn.addEventListener("mouseout", event => {
+        //     event.target.classList.remove("hover");
+        // });
+
+        // myBtn.addEventListener("mouseover", event => {
+        //     event.target.classList.toggle("hover");
+        // });
+        // myBtn.addEventListener("mouseout", event => {
+        //     event.target.classList.toggle("hover");
+        // });
+
+        // myBtn.classList.add("enabled");
+        // myBtn.addEventListener("click", event => {
+        //     event.target.classList.replace("enabled", "disabled");
+        // });
+
+        // myH1.classList.add("enabled");
+        // myH1.addEventListener("click", event => {
+        //     if (event.target.classList.contains("disabled")) {
+        //         event.target.textContent += "🤬";
+        //     } else {
+        //         event.target.classList.replace("enabled", "disabled");
+        //     }
+        // });
+
+        // myBtn.classList.add("enabled");
+        // myBtn.addEventListener("click", event => {
+        //     if (event.target.classList.contains("disabled")) {
+        //         event.target.textContent += "🤬";
+        //     } else {
+        //         event.target.classList.replace("enabled", "disabled");
+        //     }
+        // });
+
+
+
+
+
+
+        let buttons = document.querySelectorAll(".myBtns");
+        buttons.forEach(button => {
+            button.classList.add("enabled")
+        })
+
+        // buttons.forEach(button => {
+        //     button.classList.remove("enabled")
+        // })
+
+        buttons.forEach(button => {
+            button.addEventListener("mouseover", event => {
+                event.target.classList.toggle("hover")
+            })
+        })
+
+        buttons.forEach(button => {
+            button.addEventListener("mouseout", event => {
+                event.target.classList.toggle("hover")
+            })
+        })
+
+        // buttons.forEach(button => {
+        //     button.addEventListener("click", event => {
+        //         event.target.classList.replace("enabled", "disabled")
+        //     })
+        // })
+
+        buttons.forEach(button => {
+            button.addEventListener("click", event => {
+                if (event.target.classList.contains("disabled")) {
+                    event.target.textContent += "🤬";
+                } else {
+                    event.target.classList.replace("enabled", "disabled");
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>

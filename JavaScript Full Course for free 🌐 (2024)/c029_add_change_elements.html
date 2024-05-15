@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <style>
+        .box {
+            border: 3px solid;
+            width: 100%;
+            height: 125px;
+        }
+
+        #fruits {
+            border: 3px solid;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div id="box1" class="box">
+        <p>Box1</p>
+    </div>
+    <div id="box2" class="box">
+        <p>Box2</p>
+    </div>
+    <div id="box3" class="box">
+        <p>Box3</p>
+    </div>
+    <div id="box4" class="box">
+        <p>Box4</p>
+    </div> -->
+
+
+
+
+
+    <!-- <div class="box">
+        <p>Box1</p>
+    </div>
+    <div class="box">
+        <p>Box2</p>
+    </div>
+    <div class="box">
+        <p>Box3</p>
+    </div>
+    <div class="box">
+        <p>Box4</p>
+    </div> -->
+
+
+
+
+    <!-- <div id="box1" class="box">
+        <p>Box1</p>
+    </div>
+    <div id="box2" class="box">
+        <p>Box2</p>
+    </div>
+    <div id="box3" class="box">
+        <p>Box3</p>
+    </div>
+    <div id="box4" class="box">
+        <p>Box4</p>
+    </div> -->
+
+
+
+
+
+    <!-- <ol id="fruits">
+        <li id="apple">apple</li>
+        <li id="orange">orange</li>
+        <li id="banana">banana</li>
+    </ol> -->
+
+    <ol id="fruits">
+        <li>apple</li>
+        <li>orange</li>
+        <li>banana</li>
+    </ol>
+    <script>
+        // create an element
+        // const newH1 = document.createElement('h1');
+
+        // add attributes/properties
+        // newH1.textContent = "I like oranges!";
+        // newH1.id = "myH1";
+        // newH1.style.color = "tomato";
+        // newH1.style.textAlign = "center";
+
+        // append to the dom
+        // document.body.append(newH1); // add to the bottom of the body
+        // document.body.prepend(newH1); // add to the top of the body
+
+        // document.getElementById('box1').append(newH1); // add to the box1
+        // document.getElementById('box2').append(newH1); // add to the box2
+        // document.getElementById('box3').append(newH1); // add to the box3
+        // document.getElementById('box4').append(newH1); // add to the box4
+
+        // document.getElementById('box1').prepend(newH1); // add to the box1
+        // document.getElementById('box2').prepend(newH1); // add to the box2
+        // document.getElementById('box3').prepend(newH1); // add to the box3
+        // document.getElementById('box4').prepend(newH1); // add to the box4
+
+        // const box2 = document.getElementById('box2');
+        // document.body.insertBefore(newH1, box2); // add before the box2
+
+        // const box2 = document.getElementById('box2');
+        // document.body.insertBefore(newH1, box2.nextSibling); // add after the box2
+
+        // what if they do not have an id?
+        // const boxes = document.querySelectorAll('.box');
+        // boxes[0].append(newH1);
+
+        // const boxes = document.querySelectorAll('.box');
+        // document.body.insertBefore(newH1, boxes[0]);
+
+        // what if we want to add the same element to multiple places?
+        // const boxes = document.querySelectorAll('.box');
+        // boxes.forEach(box => {
+        //     box.append(newH1.cloneNode(true));
+        // });
+
+        // to remove an element
+        // document.body.append(newH1);
+        // document.body.removeChild(newH1);
+
+        // document.getElementById('box1').append(newH1);
+        // document.getElementById('box1').removeChild(newH1);
+
+        // document.getElementById('box1').append(newH1);
+        // document.getElementById('box1').removeChild(newH1);
+
+        const newListItem = document.createElement('li');
+
+        newListItem.textContent = "grape";
+        newListItem.id = "grape";
+        newListItem.style.fontWeight = "bold";
+        newListItem.style.backgroundColor = "lightgreen";
+
+        // document.body.append(newListItem);
+        // document.body.prepend(newListItem);
+        // document.getElementById('fruits').append(newListItem);
+        // document.getElementById('fruits').prepend(newListItem);
+
+        // const orange = document.getElementById('orange');
+        // document.getElementById('fruits').insertBefore(newListItem, orange);
+
+        // what if they do not have id?
+        // const listItems = document.querySelectorAll('#fruits li');
+        // document.getElementById('fruits').insertBefore(newListItem, listItems[1]);
+
+        // document.getElementById('fruits').append(newListItem);
+        // document.getElementById('fruits').removeChild(newListItem);
+    </script>
+</body>
+
+</html>

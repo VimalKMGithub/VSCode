@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+</head>
+
+<body>
+    <!-- <h1 id="welcome-msg">Welcome </h1> -->
+    <!-- <h1 id="my-Heading">Food For Us</h1>
+    <div class="fruits">Apple</div>
+    <div class="fruits">Orange</div>
+    <div class="fruits">Banana</div>
+    <h4>Root Vegetables</h4>
+    <ul>
+        <li>Beets</li>
+        <li>Carrots</li>
+        <li>Potatoes</li>
+    </ul>
+    <h4>Non Root Vegetables</h4>
+    <ul>
+        <li>Broccoli</li>
+        <li>Celery</li>
+        <li>Onions</li>
+    </ul> -->
+
+
+
+    <!-- <ul id="fruits">
+        <li>apple</li>
+        <li>orange</li>
+        <li>banana</li>
+    </ul>
+    <ul id="vegetables">
+        <li>carrots</li>
+        <li>onions</li>
+        <li>potatoes</li>
+    </ul>
+    <ul id="desserts">
+        <li>cake</li>
+        <li>pie</li>
+        <li>ice cream</li>
+    </ul> -->
+
+
+
+
+
+
+
+    <ul id="fruits">
+        <li id="apple">apple</li>
+        <li id="orange">orange</li>
+        <li id="banana">banana</li>
+    </ul>
+    <ul id="vegetables">
+        <li id="carrots">carrots</li>
+        <li id="onions">onions</li>
+        <li id="potatoes">potatoes</li>
+    </ul>
+    <ul id="desserts">
+        <li id="cake">cake</li>
+        <li id="pie">pie</li>
+        <li id="ice-cream">ice cream</li>
+    </ul>
+    <script>
+        // console.log(document);
+        // console.dir(document);
+        // document.title = 'MySite';
+        // console.dir(document);
+        // console.log(document.title);
+        // document.body.style.backgroundColor = "hsl(0, 0%, 15%)";
+        // const username = "Vimal Kumar Mishra";
+
+        // const welcomemsg = document.getElementById("welcome-msg");
+        // welcomemsg.textContent += username === "" ? "Guest" : `${username}`;
+
+
+
+
+
+
+        // const myHeading = document.getElementById("my-Heading");
+        // myHeading.style.backgroundColor = "yellow";
+        // myHeading.style.textAlign = "center";
+        // console.log(myHeading);
+
+        // const fruits = document.getElementsByClassName("fruits");
+        // console.log(fruits);
+        // fruits[0].style.backgroundColor = "yellow";
+        // for (let index = 0; index < fruits.length; index++) {
+        //     fruits[index].style.backgroundColor = "yellow";
+        // }
+        // for (let fruit of fruits) {
+        //     fruit.style.backgroundColor = "yellow";
+        // }
+
+        // Array.from(fruits).forEach(fruit => fruit.style.backgroundColor = "yellow")
+
+        // const h4Elements = document.getElementsByTagName("h4");
+        // const liElements = document.getElementsByTagName("li");
+        // h4Elements[0].style.backgroundColor = "yellow";
+        // liElements[0].style.backgroundColor = "green";
+        // for (let h4Element of h4Elements) {
+        //     h4Element.style.backgroundColor = "yellow";
+        // }
+        // for (let liElement of liElements) {
+        //     liElement.style.backgroundColor = "green";
+        // }
+        // Array.from(h4Elements).forEach(h4Element => h4Element.style.backgroundColor = "yellow");
+        // Array.from(liElements).forEach(liElement => liElement.style.backgroundColor = "green");
+
+        // querySelector() first matching element or null
+        // const element = document.querySelector(".fruits");
+        // element.style.backgroundColor = "yellow";
+
+        // const element = document.querySelector("h4");
+        // element.style.backgroundColor = "yellow";
+
+        // const element = document.querySelector("li");
+        // element.style.backgroundColor = "yellow";
+
+        // const element = document.querySelector("ul");
+        // element.style.backgroundColor = "yellow";
+
+        // const element = document.querySelector("ol");
+        // console.log(element);
+
+        // querySelectorAll() gives nodelist
+        // const fruits = document.querySelectorAll(".fruits");
+        // fruits[0].style.backgroundColor = "yellow";
+        // fruits[1].style.backgroundColor = "yellow";
+
+        // const foods = document.querySelectorAll("li");
+        // foods[0].style.backgroundColor = "yellow";
+        // foods[1].style.backgroundColor = "yellow";
+
+        // const foods = document.querySelectorAll("li");
+        // console.log(foods);
+
+        // const foods = document.querySelectorAll("li");
+        // foods.forEach(food => food.style.backgroundColor = "yellow")
+
+
+
+
+
+
+
+        // const element = document.getElementById("fruits");
+        // const firstChild = element.firstElementChild;
+        // firstChild.style.backgroundColor = "yellow";
+
+        // const element = document.getElementById("vegetables");
+        // const firstChild = element.firstElementChild;
+        // firstChild.style.backgroundColor = "yellow";
+
+        // const element = document.getElementById("desserts");
+        // const firstChild = element.firstElementChild;
+        // firstChild.style.backgroundColor = "yellow";
+
+        // const ulElement = document.querySelectorAll("ul");
+        // ulElement.forEach(ul => {
+        //     const firstChild = ul.firstElementChild;
+        //     firstChild.style.backgroundColor = "yellow";
+        // });
+
+        // const element = document.getElementById("fruits");
+        // const lastChild = element.lastElementChild;
+        // lastChild.style.backgroundColor = "yellow";
+
+        // const element = document.getElementById("vegetables");
+        // const lastChild = element.lastElementChild;
+        // lastChild.style.backgroundColor = "yellow";
+
+        // const element = document.getElementById("desserts");
+        // const lastChild = element.lastElementChild;
+        // lastChild.style.backgroundColor = "yellow";
+
+        // const ulElement = document.querySelectorAll("ul");
+        // ulElement.forEach(ul => {
+        //     const lastChild = ul.lastElementChild;
+        //     lastChild.style.backgroundColor = "yellow";
+        // });
+
+        // const element = document.getElementById("apple");
+        // const nextSibling = element.nextElementSibling;
+        // nextSibling.style.backgroundColor = "yellow";
+
+        // const element = document.getElementById("carrots");
+        // const nextSibling = element.nextElementSibling;
+        // nextSibling.style.backgroundColor = "yellow";
+
+        // const element = document.getElementById("cake");
+        // const nextSibling = element.nextElementSibling;
+        // nextSibling.style.backgroundColor = "yellow";
+
+        // const element = document.getElementById("fruits");
+        // const nextSibling = element.nextElementSibling;
+        // nextSibling.style.backgroundColor = "yellow";
+
+        // const element = document.getElementById("orange");
+        // const previousSibling = element.previousElementSibling;
+        // previousSibling.style.backgroundColor = "yellow";
+
+        // const element = document.getElementById("onions");
+        // const previousSibling = element.previousElementSibling;
+        // previousSibling.style.backgroundColor = "yellow";
+
+        // const element = document.getElementById("pie");
+        // const previousSibling = element.previousElementSibling;
+        // previousSibling.style.backgroundColor = "yellow";
+
+        // const element = document.getElementById("vegetables");
+        // const previousSibling = element.previousElementSibling;
+        // previousSibling.style.backgroundColor = "yellow";
+
+        // const element = document.getElementById("apple");
+        // const parent = element.parentElement;
+        // parent.style.backgroundColor = "yellow";
+
+        // const element = document.getElementById("onions");
+        // const parent = element.parentElement;
+        // parent.style.backgroundColor = "yellow";
+
+        // const element = document.getElementById("ice-cream");
+        // const parent = element.parentElement;
+        // parent.style.backgroundColor = "yellow";
+
+        // const element = document.getElementById("fruits");
+        // const parent = element.parentElement;
+        // parent.style.backgroundColor = "yellow";
+
+        // const element = document.getElementById("fruits");
+        // const children = element.children;
+        // Array.from(children).forEach(child => child.style.backgroundColor = "yellow");
+
+        // const element = document.getElementById("vegetables");
+        // const children = element.children;
+        // Array.from(children).forEach(child => child.style.backgroundColor = "yellow");
+
+        // const element = document.getElementById("desserts");
+        // const children = element.children;
+        // Array.from(children).forEach(child => child.style.backgroundColor = "yellow");
+
+        // const element = document.getElementById("fruits");
+        // const children = element.children;
+        // children[0].style.backgroundColor = "yellow";
+        // children[1].style.backgroundColor = "yellow";
+        // children[2].style.backgroundColor = "yellow";
+    </script>
+</body>
+
+</html>

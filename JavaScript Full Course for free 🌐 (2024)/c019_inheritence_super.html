@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+</head>
+
+<body>
+    <script>
+        // class animal {
+        //     alive = true;
+        //     eat() {
+        //         console.log(`${this.name} is eating`);
+        //     }
+        //     sleep() {
+        //         console.log(`${this.name} is sleeping`);
+        //     }
+        // }
+        // class rabbit extends animal {
+        //     name = 'rabbit';
+        //     jump() {
+        //         console.log(`${this.name} is jumping`);
+        //     }
+        // }
+        // class fish extends animal {
+        //     name = 'fish';
+        //     swim() {
+        //         console.log(`${this.name} is swimming`);
+        //     }
+        // }
+        // class hawk extends animal {
+        //     name = 'hawk';
+        //     fly() {
+        //         console.log(`${this.name} is flying`);
+        //     }
+        // }
+        // let rabbit1 = new rabbit();
+        // let fish1 = new fish();
+        // let hawk1 = new hawk();
+        // rabbit1.eat();
+        // rabbit1.jump();
+        // fish1.eat();
+        // fish1.swim();
+        // hawk1.eat();
+        // hawk1.fly();
+
+
+
+
+
+
+
+        // class animal {
+        //     constructor() {
+        //     }
+        // }
+        // class rabbit extends animal {
+        //     constructor(name, age, runspeed) {
+        //         super();
+        //         this.name = name;
+        //         this.age = age;
+        //         this.runspeed = runspeed;
+        //     }
+        // }
+        // class fish extends animal {
+        //     constructor(name, age, swimspeed) {
+        //         super();
+        //         this.name = name;
+        //         this.age = age;
+        //         this.swimspeed = swimspeed;
+        //     }
+        // }
+        // class hawk extends animal {
+        //     constructor(name, age, flyspeed) {
+        //         super();
+        //         this.name = name;
+        //         this.age = age;
+        //         this.flyspeed = flyspeed;
+        //     }
+        // }
+
+        class animal {
+            constructor(name, age) {
+                this.name = name;
+                this.age = age;
+            }
+            move(speed) {
+                console.log(`${this.name} is moving at speed of ${speed} km/hr`);
+            }
+        }
+        class rabbit extends animal {
+            constructor(name, age, runspeed) {
+                super(name, age);
+                this.runspeed = runspeed;
+            }
+            run() {
+                console.log(`${this.name} can run`);
+                super.move(this.runspeed);
+            }
+        }
+        class fish extends animal {
+            constructor(name, age, swimspeed) {
+                super(name, age);
+                this.swimspeed = swimspeed;
+            }
+            swim() {
+                console.log(`${this.name} can swim`);
+                super.move(this.swimspeed);
+            }
+        }
+        class hawk extends animal {
+            constructor(name, age, flyspeed) {
+                super(name, age);
+                this.flyspeed = flyspeed;
+            }
+            fly() {
+                console.log(`${this.name} can fly`);
+                super.move(this.flyspeed);
+            }
+        }
+        const rabbit1 = new rabbit('rabbit', 1, 25);
+        const fish1 = new fish('fish', 2, 12);
+        const hawk1 = new hawk('hawk', 3, 50);
+        console.log(rabbit1.name, rabbit1.age, rabbit1.runspeed);
+        console.log(fish1.name, fish1.age, fish1.swimspeed);
+        console.log(hawk1.name, hawk1.age, hawk1.flyspeed);
+        rabbit1.run();
+        fish1.swim();
+        hawk1.fly();
+    </script>
+</body>
+
+</html>

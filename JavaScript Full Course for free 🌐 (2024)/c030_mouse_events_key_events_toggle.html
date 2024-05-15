@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <style>
+        /* #myBox {
+            width: 300px;
+            height: 300px;
+            background-color: lightgreen;
+            font-weight: bold;
+            font-size: 4.5rem;
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+
+        #myBtn {
+            font-size: 3rem;
+        } */
+
+        /* body {
+            margin: 0;
+        }
+
+        #myBox {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            font-size: 7.5rem;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            position: relative;
+        } */
+
+        #myButton {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div id="myBox">Click Me 😀</div>
+    <button id="myBtn">Click Me</button> -->
+
+
+
+
+
+
+
+    <!-- <div id="myBox">🙂</div> -->
+
+
+
+
+
+
+    <!-- <button id="myButton">Hide</button><br><br>
+    <img id="myCar" src="images/car.jpg" alt="car" width="400px"> -->
+
+    <img id="myCar" src="images/car.jpg" alt="car" width="400px"><br>
+    <button id="myButton">Hide</button>
+    <script>
+        // const myBox = document.getElementById('myBox');
+        // function changeColor(event) {
+        //     event.target.style.backgroundColor = "tomato";
+        //     event.target.textContent = "Ouch! 🤕";
+        // }
+        // myBox.addEventListener('click', changeColor);
+
+        // myBox.addEventListener('click', function (event) {
+        //     event.target.style.backgroundColor = "tomato";
+        //     event.target.textContent = "Ouch! 🤕";
+        // });
+
+        // myBox.addEventListener('click', event => {
+        //     event.target.style.backgroundColor = "tomato";
+        //     event.target.textContent = "Ouch! 🤕";
+        // });
+
+        // myBox.addEventListener('mouseover', event => {
+        //     event.target.style.backgroundColor = "yellow";
+        //     event.target.textContent = "Don't do it 😯";
+        // });
+
+        // myBox.addEventListener('mouseout', event => {
+        //     event.target.style.backgroundColor = "lightgreen";
+        //     event.target.textContent = "Click Me 😀";
+        // });
+
+        // const myBtn = document.getElementById('myBtn');
+        // myBtn.addEventListener('click', event => {
+        //     myBox.style.backgroundColor = "tomato";
+        //     myBox.textContent = "Ouch! 🤕";
+        // });
+
+        // myBtn.addEventListener('mouseover', event => {
+        //     myBox.style.backgroundColor = "yellow";
+        //     myBox.textContent = "Don't do it 😯";
+        // });
+
+        // myBtn.addEventListener('mouseout', event => {
+        //     myBox.style.backgroundColor = "lightgreen";
+        //     myBox.textContent = "Click Me 😀";
+        // });
+
+
+
+
+
+
+
+        // document.addEventListener("keydown", event => console.log(event))
+        // document.addEventListener("keydown", event => console.log(`key down: ${event.key}`))
+        // document.addEventListener("keyup", event => console.log(`key up: ${event.key}`))
+
+        // const myBox = document.getElementById('myBox');
+        // document.addEventListener("keydown", event => { myBox.textContent = "😯"; myBox.style.backgroundColor = "tomato" })
+        // document.addEventListener("keyup", event => { myBox.textContent = "🙂"; myBox.style.backgroundColor = "lightblue" })
+
+        // const move = 10;
+        // let x = 0;
+        // let y = 0;
+        // document.addEventListener("keyup", event => { myBox.textContent = "🙂"; myBox.style.backgroundColor = "lightblue" })
+        // document.addEventListener("keydown", event => {
+        //     if (event.key.startsWith("Arrow")) {
+        //         myBox.textContent = "😯"; myBox.style.backgroundColor = "tomato"
+        //         event.preventDefault();
+        //         switch (event.key) {
+        //             case "ArrowUp":
+        //                 y -= move;
+        //                 break;
+        //             case "ArrowDown":
+        //                 y += move;
+        //                 break;
+        //             case "ArrowLeft":
+        //                 x -= move;
+        //                 break;
+        //             case "ArrowRight":
+        //                 x += move;
+        //                 break;
+        //         }
+        //         myBox.style.left = x + "px";
+        //         myBox.style.top = y + "px";
+        //     }
+        // });
+
+
+
+
+
+
+        // const myCar = document.getElementById('myCar');
+        // const myButton = document.getElementById('myButton');
+        // myButton.addEventListener("click", event => {
+        //     if (myCar.style.display === "none") {
+        //         myCar.style.display = "block";
+        //         myButton.textContent = "Hide";
+        //     } else {
+        //         myCar.style.display = "none";
+        //         myButton.textContent = "Show";
+        //     }
+        // });
+
+        const myCar = document.getElementById('myCar');
+        const myButton = document.getElementById('myButton');
+        myButton.addEventListener("click", event => {
+            if (myCar.style.visibility === "hidden") {
+                myCar.style.visibility = "visible";
+                myButton.textContent = "Hide";
+            } else {
+                myCar.style.visibility = "hidden";
+                myButton.textContent = "Show";
+            }
+        });
+    </script>
+</body>
+
+</html>
