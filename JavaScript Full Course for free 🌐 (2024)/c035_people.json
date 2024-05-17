@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Vimal",
+        "age": 23,
+        "isStudent": true
+    },
+    {
+        "name": "Abhishek",
+        "age": 22,
+        "isStudent": true
+    },
+    {
+        "name": "Aman",
+        "age": 23,
+        "isStudent": true
+    },
+    {
+        "name": "Praveen",
+        "age": 23,
+        "isStudent": false
+    }
+]
