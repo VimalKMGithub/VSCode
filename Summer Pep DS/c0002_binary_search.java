@@ -4,7 +4,7 @@
 public class c0002_binary_search {
     public static void main(String[] args) {
         c0002_binary_search solution = new c0002_binary_search();
-        int ans = solution.binarySearch(new int[] { 1, 2, 3, 4, 5 }, 3);
+        int ans = solution.binarySearch(new int[] { 1, 2, 3, 4, 5 }, 4);
         System.out.println(ans);
     }
 
