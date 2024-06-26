@@ -19,11 +19,11 @@ public class s0011_insert_delete_in_sorted_linked_list {
 
         s0011_insert_delete_in_sorted_linked_list solution = new s0011_insert_delete_in_sorted_linked_list();
         solution.traverse(head);
-        // head = solution.insertInSortedLinkedList(head, 9);
-        // solution.traverse(head);
-
-        head = solution.deleteInSortedLinkedList(head, 10);
+        head = solution.insertInSortedLinkedList(head, 9);
         solution.traverse(head);
+
+        // head = solution.deleteInSortedLinkedList(head, 10);
+        // solution.traverse(head);
     }
 
     private void traverse(c0017_linked_list_node head) {

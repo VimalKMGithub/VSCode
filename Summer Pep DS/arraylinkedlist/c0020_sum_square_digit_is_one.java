@@ -8,6 +8,9 @@ public class c0020_sum_square_digit_is_one {
         System.out.println(solution.isHappy(12));
     }
 
+    // Time complexity: O(log n to base 10)
+    // Space complexity: O(1)
+    // sum of the square of the digits of a number
     private int sumSquareDigit(int n) {
         int sum = 0;
         while (n > 0) {
@@ -34,5 +37,17 @@ public class c0020_sum_square_digit_is_one {
             n = sumSquareDigit(n);
         }
         return n == 1;
+    }
+
+    private boolean isHappy3(int n) {
+        int slow = n, fast = n;
+        while (fast != 1) {
+            slow = sumSquareDigit(slow);
+            fast = sumSquareDigit(sumSquareDigit(fast));
+            if (slow == fast) {
+                return false;
+            }
+        }
+        return true;
     }
 }
