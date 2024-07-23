@@ -106,11 +106,34 @@ public class SinglyLL {
         return size;
     }
 
+    public void reverseList() {
+        Node prev = null;
+        Node current = head;
+        Node next = null;
+        while (current != null) {
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+        head = prev;
+    }
+
+    public void reverseListRecursive(Node current, Node prev) {
+        if (current == null) {
+            head = prev;
+            return;
+        }
+        Node next = current.next;
+        current.next = prev;
+        reverseListRecursive(next, current);
+    }
+
     public static void main(String[] args) {
         SinglyLL sll = new SinglyLL();
         sll.addFirst("Mishra");
         sll.addFirst("God");
-        // sll.addFirst("Vimal");
+        sll.addFirst("Vimal");
         // sll.printList();
 
         // sll.addLast("Son");
@@ -122,8 +145,13 @@ public class SinglyLL {
         // sll.printList();
         // System.out.println(sll.getSize());
 
+        // sll.printList();
+        // sll.addAtIndex(1, "Is");
+
         sll.printList();
-        sll.addAtIndex(1, "Is");
+        sll.reverseList();
+        sll.printList();
+        sll.reverseListRecursive(sll.head, null);
         sll.printList();
     }
 }
