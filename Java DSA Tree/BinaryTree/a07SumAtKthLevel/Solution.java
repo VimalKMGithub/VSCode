@@ -60,6 +60,9 @@ public class Solution {
                 }
                 size--;
             }
+            if (level == k) {
+                break;
+            }
             level++;
         }
         return sum;
@@ -71,6 +74,7 @@ public class Solution {
         root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(5);
         Solution solution = new Solution();
+        System.out.println(solution.sumAtKthLevel(root, 0));
         System.out.println(solution.sumAtKthLevelIterative(root, 0));
     }
 }

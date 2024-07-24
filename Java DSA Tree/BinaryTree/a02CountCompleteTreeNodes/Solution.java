@@ -34,6 +34,15 @@ public class Solution {
         return root == null ? -1 : 1 + treeHeight(root.left);
     }
 
+    private int treeHeightIterative(TreeNode root) {
+        int height = -1;
+        while (root != null) {
+            height++;
+            root = root.left;
+        }
+        return height;
+    }
+
     private boolean doesNodeExist(int idx, int height, TreeNode node) {
         int left = 0, right = (1 << height) - 1;
         for (int i = 0; i < height; ++i) {
