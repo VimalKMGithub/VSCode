@@ -31,6 +31,6 @@ public class SubSequences {
 
     public static void main(String[] args) {
         SubSequences solution = new SubSequences();
-        System.out.println(solution.subSequences("aaa"));
+        System.out.println(solution.subSequences("abc"));
     }
 }
