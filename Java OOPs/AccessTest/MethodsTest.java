@@ -10,6 +10,7 @@ public class MethodsTest {
                                          // only accessible from the same package and subclasses
         /* methods.packageMethod(); */ // error: packageMethod() has default access in Access.Methods
                                        // (package-private)
+        /* methods.privateMethod(); */ /* error: private methods only accessed from same class */
     }
 }
 
@@ -20,5 +21,6 @@ class TestMethods extends Methods {
                            // subclasses
         /* packageMethod(); */ // error: packageMethod() has default access in Access.Methods
                                // (package-private)
+        /* privateMethod(); */ /* error: private methods only accessed from same class */
     }
 }

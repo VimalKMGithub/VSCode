@@ -10,6 +10,7 @@ public class FieldsTest {
                                                          // only accessible from the same package and subclasses
         /* System.out.println(fields.packageField); */ // error: defaultField has default access in Access
                                                        // (package-private)
+        /* System.out.println(fields.privateField); */ /* error: private fields can only be acccessed from same class */
     }
 }
 
@@ -20,5 +21,6 @@ class TestFields extends Fields {
                                             // subclasses
         /* System.out.println(packageField); */ // error: defaultField has default access in Access
                                                 // (package-private)
+        /* System.out.println(privateField); */ /* error: private fields can only be acccessed from same class */
     }
 }
